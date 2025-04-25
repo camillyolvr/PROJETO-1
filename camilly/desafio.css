@@ -1,0 +1,85 @@
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+background: rgba(0, 0, 0, 0.2);
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color:#FACC15;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(to right,#1e3a8a #3B82F6);
+}
+.hero h1{
+
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sobre {
+    background:rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.sobre p {
+    font-size: 18px;
+    grid-template-columns: 100px 100px 100px; /*muito apertado */
+}
+.card {
+    background: black;
+    color: white;
+}
+.cards {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+form input, form textarea, form button{
+    margin-top:10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+form button {
+    background:#FACC15;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
